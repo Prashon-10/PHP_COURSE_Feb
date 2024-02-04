@@ -24,12 +24,17 @@
 // getHTTP();
 
 // Important Question
-$(document).ready(function(){
-    $('#hide').click(function () { 
-        $('p').hide();
-    });
+$(document).ready(function () {
+  $("#hide").click(function () {
+    $("p").hide();
+  });
 
-    $('#show').click(function () { 
-        $('p').show();
-    });
+  $("#show").click(function () {
+    $("p").show();
+  });
+
+  // Hide and Show Both in one button
+  $("#hs").click(function () {
+    $("p").toggle();
+  });
 });
