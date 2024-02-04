@@ -38,3 +38,4 @@ $(document).ready(function () {
     $("p").toggle(100)//time in ms;
   });
 });
+
