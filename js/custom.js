@@ -35,6 +35,6 @@ $(document).ready(function () {
 
   // Hide and Show Both in one button
   $("#hs").click(function () {
-    $("p").toggle();
+    $("p").toggle(100)//time in ms;
   });
 });
