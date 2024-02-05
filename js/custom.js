@@ -26,11 +26,11 @@
 // Important Question
 $(document).ready(function () {
   $("#hide").click(function () {
-    $("p").hide();
+    $("p").hide(100);
   });
 
   $("#show").click(function () {
-    $("p").show();
+    $("p").show(100);
   });
 
   // Hide and Show Both in one button
@@ -38,4 +38,3 @@ $(document).ready(function () {
     $("p").toggle(100)//time in ms;
   });
 });
-
